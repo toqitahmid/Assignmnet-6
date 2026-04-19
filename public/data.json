@@ -12,7 +12,7 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "/assets/products/writing.png"
+    "icon": "https://i.ibb.co.com/35Dq2d8Z/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["2000+ templates", "Monthly updates", "Commercial license"],
-    "icon": "/assets/products/design-tool.png"
+    "icon": "https://i.ibb.co.com/0pF6SWV9/design-tool.png"
   },
   {
     "id": 3,
@@ -34,7 +34,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["10M+ assets", "Commercial use", "No attribution"],
-    "icon": "/assets/products/portfolio.png"
+    "icon": "https://i.ibb.co.com/20CkLVKZ/portfolio.png"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["50+ automations", "API access", "Custom workflows"],
-    "icon": "/assets/products/operation.png"
+    "icon": "https://i.ibb.co.com/Fb8zNVzq/operation.png"
   },
   {
     "id": 5,
@@ -67,28 +67,6 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
-    "icon": "/assets/products/social-media.png"
-  },
-  {
-    "id": 7,
-    "name": "E-commerce Starter Pack",
-    "description": "Launch your online store with ready-made templates and tools.",
-    "price": 59,
-    "period": "one-time",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": ["Store templates", "Payment integration", "SEO tools"],
-    "icon": "/assets/products/shopping-cart.png"
-  },
-  {
-    "id": 8,
-    "name": "Startup Growth Kit",
-    "description": "Everything you need to grow your startup with marketing and productivity tools.",
-    "price": 99,
-    "period": "yearly",
-    "tag": "New",
-    "tagType": "new",
-    "features": ["Marketing tools", "Growth analytics", "Automation features"],
-    "icon": "/assets/products/rocket.png"
+    "icon": "https://i.ibb.co.com/tTybHbmp/social-media.png"
   }
 ]
