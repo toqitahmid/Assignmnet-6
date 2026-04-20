@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Banner from "./components/banner";
 import CardHead from "./components/cards/cardhead";
 import Cards from "./components/cards/cards";
+import Buytool from "./components/buytool";
 import {useState } from "react";
 
 
@@ -23,6 +24,7 @@ function App() {
         totalDoller = {totalDoller}
         setTotalDoller = {setTotalDoller}
       ></Cards>
+      <Buytool></Buytool>
     </>
   );
 }
