@@ -36,13 +36,7 @@ const Cart = ({setBuyCard, parBuyCard, setTotalDoller }) => {
           </div>
           <div className="divider divider-horizontal"></div>
           <div className="divider divider-horizontal"></div>
-          <div className="w-15">
-            <img
-              alt="Tailwind CSS Navbar component"
-              src={parBuyCard.icon}
-              className="rounded-full w-10"
-            />
-          </div>
+          <div className="divider divider-horizontal"></div>
         </div>
       </div>
     </>

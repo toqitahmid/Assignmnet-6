@@ -5,6 +5,7 @@ import CardHead from "./components/cards/cardhead";
 import Cards from "./components/cards/cards";
 import Buytool from "./components/buytool";
 import Pricing from "./components/pricing";
+import Footer from "./components/carts/footer";
 import {useState } from "react";
 
 
@@ -27,6 +28,7 @@ function App() {
       ></Cards>
       <Buytool></Buytool>
       <Pricing></Pricing>
+      <Footer></Footer>
     </>
   );
 }
