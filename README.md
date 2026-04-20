@@ -1,3 +1,27 @@
+*** Project Name
+=> DigiTools
+
+*** Description
+=> Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today. Explore Products
+
+*** Technology that I used
+=> React + vite
+=> Tailwind + Daisy UI
+=> Rect Toastify
+
+*** 3 remarkable features
+=> You can add your favourite item to the cart
+=> You can see the total items and total price that you add to the cart
+=> You can also remove any items from the cart
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
