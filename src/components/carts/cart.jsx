@@ -1,4 +1,5 @@
 import React from "react";
+import { toast } from "react-toastify";
 
 const Cart = ({setBuyCard, parBuyCard, setTotalDoller }) => {
   const handleRemove = (parBuyCard) => {
@@ -7,6 +8,8 @@ const Cart = ({setBuyCard, parBuyCard, setTotalDoller }) => {
       prev.filter((card) => Number(card.id !== Number(parBuyCard.id))),
     );
     setTotalDoller((prevTotal) => prevTotal-parBuyCard.price)
+
+    toast.error(`Removed ${parBuyCard.name} from cart list`)
   };
   return (
     <>

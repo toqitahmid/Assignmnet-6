@@ -1,4 +1,5 @@
 import { React} from "react";
+import { toast } from "react-toastify";
 import Features from "./features";
 
 const Card = ({ card, buyCard, setBuyCard, setTotalDoller }) => {
@@ -7,10 +8,11 @@ const Card = ({ card, buyCard, setBuyCard, setTotalDoller }) => {
   const handleAddToCart = (card) => {
     setBuyCard((prev) => [...prev, card]);
     setTotalDoller((prevTotal) => prevTotal + card.price);
+    toast(`${card.name} add to cart`)
   };
   return (
     <div className="hover-3d">
-      <div className="card w-96 h-full bg-base-200 shadow-sm hover-3d">
+      <div className="card md:w-96 h-full bg-base-200 shadow-sm hover-3d">
         <div className="card-body">
           <div className="flex justify-between items-center">
             <img src={card.icon} alt="" />

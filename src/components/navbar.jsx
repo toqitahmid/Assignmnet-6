@@ -6,7 +6,7 @@ const Navbar = ({buyCard, totalDoller}) => {
   return (
     <div>
       <div className="navbar bg-base-100 shadow-sm">
-        <div className="navbar w-10/12 mx-auto">
+        <div className="navbar md:w-10/12 mx-auto">
           {/*navbar start */}
 
           <div className="navbar-start">
@@ -47,7 +47,7 @@ const Navbar = ({buyCard, totalDoller}) => {
                 <li>FQA</li>
               </ul>
             </div>
-            <h2 className="text-3xl font-bold text-purple-700">DigiTools</h2>
+            <h2 className="md:text-3xl text-2xl font-bold text-purple-700">DigiTools</h2>
           </div>
 
           {/*navbar-center*/}
@@ -64,7 +64,7 @@ const Navbar = ({buyCard, totalDoller}) => {
 
           {/*navbar-end*/}
 
-          <div className="navbar-end space-x-4">
+          <div className="navbar-end md:space-x-4">
             <div className="dropdown dropdown-end">
               <div
                 tabIndex={0}
@@ -108,9 +108,9 @@ const Navbar = ({buyCard, totalDoller}) => {
               </div>
             </div>
 
-            <div className="space-x-4">
+            <div className="md:space-x-4 flex justify-center">
               <button className="btn btn-ghost">Log in</button>
-              <button className="btn space-x-5 rounded-3xl bg-linear-to-bl from-violet-500 to-fuchsia-500 text-white">
+              <button className="btn md:space-x-5 rounded-3xl bg-linear-to-bl from-violet-500 to-fuchsia-500 text-white">
                 Get Started
               </button>
             </div>

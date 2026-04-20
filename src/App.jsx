@@ -7,6 +7,7 @@ import Buytool from "./components/buytool";
 import Pricing from "./components/pricing";
 import Footer from "./components/carts/footer";
 import {useState } from "react";
+import {ToastContainer} from 'react-toastify'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Buytool></Buytool>
       <Pricing></Pricing>
       <Footer></Footer>
+      <ToastContainer/>
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 import Card from "./card";
 import Cart from "../carts/cart";
 
@@ -10,6 +11,7 @@ const Cards = ({ buyCard, setBuyCard, totalDoller, setTotalDoller }) => {
   const handleProceed = () => {
     setBuyCard([]);
     setTotalDoller(0);
+    toast.error(`Removed all items from cart list`)
   }
 
   useEffect(() => {
@@ -40,7 +42,7 @@ const Cards = ({ buyCard, setBuyCard, totalDoller, setTotalDoller }) => {
         </button>
       </div>
 
-      <div className="w-8/12 mx-auto grid grid-cols-3 gap-4 mb-10">
+      <div className="w-8/12 mx-auto grid md:grid-cols-3 grid-cols-1 gap-4 mb-10">
         {button === "products" &&
           cards.map((card) => (
             <Card
@@ -54,7 +56,7 @@ const Cards = ({ buyCard, setBuyCard, totalDoller, setTotalDoller }) => {
       </div>
 
       <div className="w-8/12 mx-auto">
-        <div className="bg-base-200 p-5 rounded-2xl mb-10">
+        <div className="bg-base-200 p-5 rounded-2xl mb-5">
           <div className="">
             {button === "cart" && (
               <h1 className="text-3xl font-bold mb-5">Your Cart</h1>

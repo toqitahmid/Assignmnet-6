@@ -4,16 +4,16 @@ const Pricing = () => {
   return (
     <div>
       <div className="w-8/12 mx-auto mb-20">
-        <div className="text-center space-y-3 mt-40 mb-10">
-          <h2 className="text-5xl font-bold">Simple, Transparent Pricing</h2>
+        <div className="text-center space-y-3 md:mt-40 mb-10">
+          <h2 className="md:text-5xl text-3xl font-bold">Simple, Transparent Pricing</h2>
           <p>
             Choose the plan that fits your needs. Upgrade or downgrade anytime.
           </p>
         </div>
 
-        <div className="flex justify-between gap-5 mt-20">
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-5 md:mt-20">
           <div className="hover-3d">
-            <div className="card w-86 bg-base-100 shadow-sm">
+            <div className="card w-full bg-base-100 shadow-sm">
               <div className="card-body space-y-4">
                 <div className="flex justify-between">
                   <h2 className="text-3xl font-bold">Stater</h2>
@@ -98,7 +98,7 @@ const Pricing = () => {
             </div>
           </div>
           <div className="hover-3d">
-            <div className="card w-86 bg-linear-to-bl from-violet-500 to-fuchsia-500 shadow-sm">
+            <div className="card w-full bg-linear-to-bl from-violet-500 to-fuchsia-500 shadow-sm">
               <div className="card-body space-y-4">
                 <span className="badge badge-xs badge-warning">
                   Most Popular
@@ -220,7 +220,7 @@ const Pricing = () => {
             </div>
           </div>
           <div className="hover-3d">
-            <div className="card w-86 bg-base-100 shadow-sm">
+            <div className="card w-full bg-base-100 shadow-sm">
               <div className="card-body space-y-4">
                 <div className="flex justify-between">
                   <h2 className="text-3xl font-bold">Enterprise</h2>
