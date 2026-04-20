@@ -5,13 +5,13 @@ import roket from "../assets/ui/rocket.png";
 
 const Buytool = () => {
   return (
-    <div className="w-10/12 mx-auto mt-20 mb-20">
-      <div className="text-center space-y-3 mb-10">
+    <div className="w-10/12 mx-auto mt-30 mb-20">
+      <div className="text-center space-y-3 mt-20 mb-10">
         <h2 className="text-5xl font-bold">Get Started in 3 Steps</h2>
         <p>Start using premium digital tools in minutes, not hours.</p>
       </div>
 
-      <div className="w-8/10 mx-auto flex justify-between gap-4">
+      <div className="w-8/10 mx-auto flex justify-between gap-4 mt-20">
         <div className="hover-3d">
         <div className="bg-base-200 rounded-2xl p-5">
           <div className="flex justify-between">
