@@ -12,7 +12,7 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "https://i.ibb.co.com/35Dq2d8Z/writing-2327400-1.png"
+    "icon": "https://i.ibb.co.com/HppmPBn3/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["2000+ templates", "Monthly updates", "Commercial license"],
-    "icon": "https://i.ibb.co.com/0pF6SWV9/design-tool.png"
+    "icon": "https://i.ibb.co.com/Ldfxz8TV/design-tool.png"
   },
   {
     "id": 3,
@@ -34,7 +34,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["10M+ assets", "Commercial use", "No attribution"],
-    "icon": "https://i.ibb.co.com/20CkLVKZ/portfolio.png"
+    "icon": "https://i.ibb.co.com/NntytzfJ/portfolio.png"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "tag": "Popular",
     "tagType": "popular",
     "features": ["50+ automations", "API access", "Custom workflows"],
-    "icon": "https://i.ibb.co.com/Fb8zNVzq/operation.png"
+    "icon": "https://i.ibb.co.com/LX8mKNCp/operation.png"
   },
   {
     "id": 5,
@@ -56,7 +56,7 @@
     "tag": "New",
     "tagType": "new",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "/assets/products/user.png"
+    "icon": "https://i.ibb.co.com/mFXpd6yL/shopping-cart.png"
   },
   {
     "id": 6,
@@ -67,6 +67,6 @@
     "tag": "Best Seller",
     "tagType": "best-seller",
     "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
-    "icon": "https://i.ibb.co.com/tTybHbmp/social-media.png"
+    "icon": "https://i.ibb.co.com/Gf2YVbGP/social-media.png"
   }
 ]
