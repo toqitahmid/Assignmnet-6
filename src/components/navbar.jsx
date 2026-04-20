@@ -1,8 +1,10 @@
 import React from "react";
+import Cart from "./carts/cart";
 
-const Navbar = () => {
+const Navbar = ({buyCard, totalDoller}) => {
+
   return (
-    <div className="">
+    <div>
       <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar w-10/12 mx-auto">
           {/*navbar start */}
@@ -86,7 +88,9 @@ const Navbar = () => {
                       d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                     />{" "}
                   </svg>
-                  <span className="badge badge-sm indicator-item bg-purple-500 rounded-full text-white">69</span>
+                  <span className="badge badge-sm indicator-item bg-purple-500 rounded-full text-white">
+                    {buyCard.length}
+                  </span>
                 </div>
               </div>
               <div
@@ -94,13 +98,12 @@ const Navbar = () => {
                 className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow"
               >
                 <div className="card-body">
-                  <span className="text-lg font-bold">8 Items</span>
-                  <span className="text-info">Subtotal: $999</span>
-                  <div className="card-actions">
-                    <button className="btn btn-primary btn-block">
-                      View cart
-                    </button>
-                  </div>
+                  <span className="text-lg font-bold">
+                    {buyCard.length} Items
+                  </span>
+                  <span className="text-fuchsia-500">
+                    Subtotal: {totalDoller}$
+                  </span>
                 </div>
               </div>
             </div>

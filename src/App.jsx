@@ -3,24 +3,26 @@ import Navbar from "./components/navbar";
 import Banner from "./components/banner";
 import CardHead from "./components/cards/cardhead";
 import Cards from "./components/cards/cards";
-import { Suspense } from "react";
+import {useState } from "react";
 
-const fetchingJson = async () => {
-  const res = await fetch("../public/data.json");
-  const resJson = res.json();
-  return resJson;
-};
 
 function App() {
-  const cardJson = fetchingJson();
+  const  [buyCard, setBuyCard] = useState([]);
+  const [totalDoller, setTotalDoller] = useState(0);
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar 
+      buyCard = {buyCard}
+      totalDoller = {totalDoller}
+      ></Navbar>
       <Banner></Banner>
       <CardHead></CardHead>
-      <Suspense fallback = {<h1>loading...</h1>}>
-        <Cards cardJson = {cardJson}></Cards>
-      </Suspense>
+      <Cards
+        buyCard = {buyCard}
+        setBuyCard = {setBuyCard}
+        totalDoller = {totalDoller}
+        setTotalDoller = {setTotalDoller}
+      ></Cards>
     </>
   );
 }

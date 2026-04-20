@@ -1,7 +1,13 @@
-import React from "react";
+import { React} from "react";
 import Features from "./features";
 
-const Card = ({ card }) => {
+const Card = ({ card, buyCard, setBuyCard, setTotalDoller }) => {
+  const isBuied = buyCard.some((bc) => Number(bc.id) === Number(card.id));
+
+  const handleAddToCart = (card) => {
+    setBuyCard((prev) => [...prev, card]);
+    setTotalDoller((prevTotal) => prevTotal + card.price);
+  };
   return (
     <div className="hover-3d">
       <div className="card w-96 h-full bg-base-200 shadow-sm hover-3d">
@@ -29,8 +35,13 @@ const Card = ({ card }) => {
             ))}
           </ul>
           <div className="mt-6 hover-3d">
-            <button className="btn btn-block rounded-3xl text-white bg-linear-to-bl from-violet-500 to-fuchsia-500">
-              Buy Now
+            <button
+              type="button"
+              disabled = {isBuied}
+              onClick={() => handleAddToCart(card)}
+              className={`btn rounded-3xl text-white bg-linear-to-bl from-violet-500 to-fuchsia-500 ${isBuied === true ? 'btn-disabled':''}`}
+            >
+              {isBuied? "Alredy Added" : "Buy Now"}
             </button>
           </div>
         </div>

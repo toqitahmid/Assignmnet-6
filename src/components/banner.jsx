@@ -44,12 +44,12 @@ const Banner = () => {
             <h2 className="text-4xl font-bold">50K</h2>
             <p>Active Users</p>
           </div>
-          <div class="divider divider-horizontal"></div>
+          <div className="divider divider-horizontal"></div>
           <div>
             <h2 className="text-4xl font-bold">200+</h2>
             <p>Premimum Tools</p>
           </div>
-          <div class="divider divider-horizontal"></div>
+          <div className="divider divider-horizontal"></div>
           <div>
             <h2 className="text-4xl font-bold">4.9</h2>
             <p>Rating</p>
