@@ -8,8 +8,8 @@ const Banner = () => {
       <div className="w-10/12 mx-auto md:mt-20">
         <div className="flex md:justify-between flex-wrap-reverse items-center">
           <div className="md:space-y-5 space-y-3">
-            <div className="place-self-center">
-            <p className="md:text-xl bg-blue-100 md:w-79 w-65 pl-3 p-1 rounded-3xl">
+            <div className="">
+            <p className="md:text-xl bg-blue-100 md:w-79 w-65 pl-3 p-1 rounded-3xl mx-auto md:mx-0 text-center md:text-left">
               New: AI-Powered Tools Available
             </p>
             </div>
@@ -21,7 +21,7 @@ const Banner = () => {
               productivity software—all in one place. Start creating faster
               today. Explore Products
             </p>
-            <div className="flex items-center space-x-2 place-self-center">
+            <div className="flex items-center mx-auto md:mx-0 space-x-2">
               <button className=" px-5 py-2 text-white rounded-3xl bg-linear-to-bl from-violet-500 to-fuchsia-500 cursor-pointer">
                 Explore Products
               </button>
